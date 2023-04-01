@@ -5,6 +5,13 @@
 Este é um código em JavaScript para um jogo onde o objetivo do jogador é atravessar a rua sem ser atropelado por carros.
 O código inclui funções para controlar a movimentação do personagem principal, verificar colisões com os carros, registrar pontos, e reiniciar o jogo após uma colisão.
 
+<div align=center>
+  
+![2023-04-01_01h07_54](https://user-images.githubusercontent.com/56178855/229264893-a1ec855c-16aa-45db-a9ee-c1090871f437.png)
+
+</div >
+
+
 ## Como jogar
 O jogador controla um personagem posicionado na parte inferior da tela. Para movimentar o personagem para cima, pressione a seta para cima do teclado. Para movimentar o personagem para baixo, pressione a seta para baixo. O objetivo é atravessar a rua sem ser atingido por um carro. Se o personagem colidir com um carro, o jogo reinicia e um ponto é perdido. Se o personagem conseguir atravessar a rua com sucesso, um ponto é marcado e o jogo reinicia.
 
