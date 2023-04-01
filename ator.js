@@ -1,14 +1,14 @@
 //codigo do ator
-let xAtor = 350;
+let xAtor = 85;
 let yAtor = 366;
 let colisao = false;
 let meusPontos = 0;
 
 function mostraAtor(){
-  image(imagemDoAtor,xAtor,yAtor, 40,30);
+  image(imagemDoAtor,xAtor,yAtor, 35,30);
 }
-//-----------SETAS PARA CONTROLE------------------------
-function movimentaAtor(){ 
+
+function movimentaAtor(){ //SETAS PARA CONTROLE
   if(keyIsDown(UP_ARROW)){
     yAtor -= 3;
   }
@@ -18,15 +18,9 @@ function movimentaAtor(){
     yAtor += 3;
       }
   }
-  if(keyIsDown(LEFT_ARROW)){
-    xAtor -= 3;
-  }
-  if(keyIsDown(RIGHT_ARROW)){
-    xAtor += 3;
-  }
   
 }
-//----------- COLISAO ----------------------
+
 function verificaColisao(){
   for(let i = 0; i < imagemCarros.length; i++){
     colisao = collideRectCircle(xCarros[i],yCarros[i],comprimentoCarro, alturaCarro,xAtor,yAtor,15)
@@ -49,7 +43,7 @@ function incluiPontos(){
   
   textAlign(CENTER);
   textSize(25);
-  fill(255,0,0);
+  fill(255,255,0);
   text(meusPontos, width / 5, 27);
 }
 
@@ -69,10 +63,3 @@ function pontosMaiorQueZero(){
 function podeMover(){
   return yAtor < 366;
 }
-  
-
-
-
-
-
-
