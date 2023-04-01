@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(500, 400);
   sTrilha.loop();
 }
 
