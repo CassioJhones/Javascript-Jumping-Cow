@@ -1,6 +1,6 @@
-let xCarros = [750, 750, 750, 750, 750, 750 ];
+let xCarros = [600, 600, 600, 600, 600, 600];
 let yCarros = [42, 96, 150, 210, 270, 318]; 
-let velocidadeCarros = [7, 6.5, 5.5, 7.5, 8, 5];
+let velocidadeCarros = [2, 2.8, 3.5, 5, 3, 2.2];
 let comprimentoCarro = 70;
 let alturaCarro = 40
 
@@ -25,5 +25,5 @@ function voltaPosicaoInicialdoCarro(){
   }
 }
 function passouTodaATela(xCarro){
-return xCarro < -30;
+return xCarro < -50;
   }
