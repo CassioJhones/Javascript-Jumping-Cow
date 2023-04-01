@@ -3,9 +3,7 @@ let sTrilha;
 let sColisao;
 let sPonto;
 
-
 //CODIGOS IMAGENS
-
 let imagemDaEstrada;
 let imagemDoAtor;
 let imagemCarro;
